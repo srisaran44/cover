@@ -37,52 +37,110 @@ Publish the website in the LocalHost.
 cover.html
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>Spider man book</title>
-    </head>
-    <body>
-        <div class="name"><h1>SRI SARAN J(25015592)</h1></div>
-        
-        <div class="cover">
-            <div class="main">
-                <div class="title">
-                    <h1>SEC Insight</h1>
-                    <hr>
-                </div>
-                
-                <div class="content">
-                    <p><h2>The Emerging 
-                        Spider Man </h2></p>
-                            
-                </div>
-                <br>
-                <div class="subtitle">
-                    <h3>
-                    * The Rise of spider man
-                    </h3>
-                    <h3>* adventures of spiderman</h4>
-                </div>
-                <div class="image">
-                    <img src="me.jpg" alt="mypic">
-                </div>
-                <div class="edition">
-                    <h2>Elite Edition</h2>
-                    <hr>
-                </div>
-                <div class="author">
-                    <h2>SRI SARAN J</h2>
-                </div>
-                <div class="sub-bottom"><h2>SPIDEYY</h2></div>
-            </div>
-       </div>
-    </body>
+<head>
+  <title>Book Cover</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color : black
+      background-size: cover;
+      background-position: center;
+      color: black;
+      background-color: orange;
+    }
+    .cover {
+      width: 700px;
+      height: 1000px;
+      margin: 50px auto;
+      padding: 30px;
+      position: relative;
+      background: rgba(255, 250, 240, 0.9); 
+      border: 5px solid red; 
+      border-radius: 2%;
+      background-image:url(bg.jpg);
+    }
+    .top {
+      font-size: 40px;
+      font-weight: bold;
+      color: blue;
+      text-align: left;
+      letter-spacing: 2px;
+    }
+    .title {
+      font-size: 60px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 80px;
+      color: rgb(138, 3, 3);
+      font-family: 'Times New Roman', serif;
+    }
+    .subtitle {
+      font-size: 40px;
+      text-align: center;
+      margin-top: 30px;
+      font-style: italic;
+      color: lime;
+    }
+    .special {
+      font-size: 40px;
+      font-weight: bold;
+      margin-top: 480px;
+      color: white;
+      text-align: left;
+    }
+    .author {
+      font-size: 30px;
+      font-weight: bold;
+      color: black;
+      margin-top: 25px;
+      text-align: left;
+    }
+    .sec {
+      position: absolute;
+      bottom: 30px;
+      right: 20px;
+      font-size: 18px;
+      color: white;
+    }
+    .photo {
+      width: 200px;
+      height: 260px;
+      position: absolute;
+      bottom: 60px;
+      right: 100px;
+      border-radius: 8px;
+      border: 2px dotted yellow;
+      box-shadow: 0 0 10px black
+    }
+  </style>
+</head>
+<body>
+  <div class="cover">
+    <div class="top">SEC Insights</div>
+    
+    <div class="title">
+      SHAPING THE FUTURE<br>
+        WITH TECHNOLOGY
+    </div>
+    
+    <div class="subtitle">
+      innovation is endless and <br>
+      innovation shapes tomorrow
+    </div>
+    
+    <div class="special">SPECIAL EDITION</div>
+    
+    <img src="me.jpg" class="photo" alt="Author Photo">
+    
+    <div class="author">srisaran(25015592)
+    </div>
+    
+    <div class="sec">SEC</div>
+  </div>
+</body>
 </html>
-
-
-
 style.css
-
 body{
     background-color: #000000;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -165,17 +223,18 @@ body{
     font-size: 15px;
     color:rgba(218, 63, 63, 0.853);
 }
+
 .name{
     text-align: center;
     position: relative;
     right:50px;
     color:rgb(26, 198, 198);
 }
-
 ```
 
 ## OUTPUT:
-<img width="1903" height="1067" alt="cover" src="https://github.com/user-attachments/assets/c3f9d866-1e7a-4871-88c9-de344b8582a0" />
+<img width="1920" height="1020" alt="Book Cover and 3 more pages - Personal - Microsoft​ Edge 18-10-2025 11_51_43" src="https://github.com/user-attachments/assets/fad7046c-f3e1-45e5-a129-7cf4ca4d53f1" />
+
 
 
 ## RESULT:
